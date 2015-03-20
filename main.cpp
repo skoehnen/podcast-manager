@@ -1,4 +1,6 @@
+// system includes
 #include <curl/curl.h>
+#include <iostream>
 
 int main( ) {
 
@@ -11,6 +13,7 @@ int main( ) {
   if( curl ) {
     
   } else {
+    std::cerr << "Curl init error" << std::endl;
   }
   
   return 0;
