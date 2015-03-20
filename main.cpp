@@ -1,6 +1,7 @@
 // system includes
 #include <curl/curl.h>
 #include <iostream>
+#include <fstream>
 
 int main( ) {
 
